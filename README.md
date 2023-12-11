@@ -7,7 +7,7 @@ Then run
 ```sh
 nixos-generate-config
 ```
-This will generate your specialized hardware-configuration.nix file. To apply the configuration, run 
+This will generate your specialized `hardware-configuration.nix` file. To apply the configuration, run 
 ```sh
 nixos-rebuild switch
 ```
